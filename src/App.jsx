@@ -17,19 +17,16 @@ function App() {
 
   return (
     <>
-      <Destacados />
-      
-      {/* <Warning />
+      <Warning />
       <Navbar />
       <Comprafacil />
       <Destacados />
-      <DestacadosBtn />
       <OfertaSem />
       <PorQueElegirnos />
       <LosQueSaben />
       <ImpAlimSaludable />
       <Instagram />
-      <Footer/>  */}
+      <Footer/> 
     </>
   )
 }
