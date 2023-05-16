@@ -54,10 +54,10 @@ export const Destacados = () => {
 }
 
 const destacadosStyle = {
-  maxWith: "100%",
-  maxHeight: "100%",
   display:"flex",
-  flexWrap: "wrap",
+  flexWrap: "wrap",  
+  maxWidth: "100%",    
+  maxHeight: "100%",   
   backgroundImage: `url(${fondoDestacados})`,
   backgroundSize: "cover",
   opacity: "0.8",
