@@ -79,7 +79,7 @@ const texto = {
 const tarjetasStyle = {
   display:"flex",
   flexWrap: "wrap",
-  gap: "10px",
+  gap: "20px",
   justifyContent: "center",
   alignItems: "center",
   marginBottom: "100px"

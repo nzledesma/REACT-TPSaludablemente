@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { Navbar } from './Components/NavBar'
+
 import { Footer } from './Components/Footer'
 import { OfertaSem } from './Components/OfertaSem'
 import { PorQueElegirnos } from './Components/PorQueElegirnos'
@@ -10,6 +10,7 @@ import { Warning } from './Components/Warning'
 import { Instagram } from './Components/Instagram'
 import { Comprafacil } from './Components/CompraFacil'
 import { Destacados } from './Components/Destacados'
+import { NavbarS } from './Components/NavBarS'
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
   return (
     <>
       <Warning />
-      <Navbar />
+      <NavbarS />
       <Comprafacil />
       <Destacados />
       <OfertaSem />

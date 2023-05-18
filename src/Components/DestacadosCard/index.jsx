@@ -21,7 +21,7 @@ const DestacadosCard = (props) => {
 export default DestacadosCard
 
 const figureStyle = {
-    width: "300px",     
+    width: "280px",     
     height: "530px",
     border: "2px solid black",
     borderRadius: "20px",
@@ -32,14 +32,14 @@ const figureStyle = {
 }
 
 const imgStyle = {
-    width: "300px",     
+    width: "280px",     
     height: "400px",                       
     borderRadius: "20px 20px 0px 0px",
     marginTop: "0px",
 }
 
 const figcaptionStyle = {
-    width: "300px",     
+    width: "280px",     
     height: "250px",
     backgroundColor: "#D9D9D9",
     borderRadius: "0px 0px 20px 20px",
