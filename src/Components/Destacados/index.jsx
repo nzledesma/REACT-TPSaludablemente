@@ -74,6 +74,7 @@ const texto = {
   display:"flex",
   flexWrap: "wrap",
   justifyContent: "center",
+  margin: "40px"
 }
 
 const tarjetasStyle = {
