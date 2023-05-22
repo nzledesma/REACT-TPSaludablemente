@@ -54,10 +54,10 @@ export const Destacados = () => {
 }
 
 const destacadosStyle = {
-  maxWith: "100%",
-  maxHeight: "100%",
   display:"flex",
-  flexWrap: "wrap",
+  flexWrap: "wrap",  
+  maxWidth: "100%",    
+  maxHeight: "100%",   
   backgroundImage: `url(${fondoDestacados})`,
   backgroundSize: "cover",
   opacity: "0.8",
@@ -74,12 +74,13 @@ const texto = {
   display:"flex",
   flexWrap: "wrap",
   justifyContent: "center",
+  margin: "40px"
 }
 
 const tarjetasStyle = {
   display:"flex",
   flexWrap: "wrap",
-  gap: "10px",
+  gap: "20px",
   justifyContent: "center",
   alignItems: "center",
   marginBottom: "100px"
