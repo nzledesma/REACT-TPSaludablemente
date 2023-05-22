@@ -1,7 +1,7 @@
+// eslint-disable-next-line no-unused-vars
 import { useState } from 'react'
 import './App.css'
-
-import { Footer } from './Components/Footer'
+// import { Footer } from './Components/Footer'
 import { OfertaSem } from './Components/OfertaSem'
 import { PorQueElegirnos } from './Components/PorQueElegirnos'
 import { LosQueSaben } from './Components/LosQueSaben'
@@ -14,10 +14,10 @@ import { NavbarS } from './Components/NavBarS'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+      
       <Warning />
       <NavbarS />
       <Comprafacil />
@@ -27,7 +27,7 @@ function App() {
       <LosQueSaben />
       <ImpAlimSaludable />
       <Instagram />
-      <Footer/> 
+      {/* <Footer />  */}
     </>
   )
 }

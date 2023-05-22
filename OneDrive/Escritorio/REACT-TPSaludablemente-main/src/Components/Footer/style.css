@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula&display=swap');
+
+@font-face {
+    font-family: Kiona;
+    src: url('./fonts/Kiona-Regular.ttf');
+}
+
+.footer {
+    padding-block: 10px;
+    background-color: #fff0af;
+    color: #000;
+    min-width: 100vh;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    width: 417px;
+    height: 139px;
+    margin: auto;
+}
+
+.footer-container {
+    max-width: 116rem;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.footer-top{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    row-gap: 20px;
+}
+
+.footer-title {
+    font-size: 25px;
+    color: #000;
+    margin-bottom: 10px;
+    font-family: 'Kiona', sans-serif;
+    text-align: center;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    text-align: left;
+}
+
+.footer-list-link {
+    transition: color 0.25s;
+    font-family: 'Khula', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #7f5004;
+}
+
+.footer-list-link:hover {
+    color: #000;
+}
+
+.footer-contacto {
+    font-family: 'Khula', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-title-bottom {
+    font-size: 25px;
+    color: #000;
+    margin-bottom: 20px;
+    font-family: 'Kiona', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-icon-link {
+    transition: color 0.25s;
+    font-size: 35px;
+    text-decoration: none;
+    color: #7f5004;
+}
+
+.footer-icon-link:hover {
+    color: #000;
+}
+
+.footer-list-bottom{
+    flex-direction: row;
+    gap: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
