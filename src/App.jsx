@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-import { Footer } from './Components/Footer'
 import { OfertaSem } from './Components/OfertaSem'
 import { PorQueElegirnos } from './Components/PorQueElegirnos'
 import { LosQueSaben } from './Components/LosQueSaben'
@@ -10,13 +9,14 @@ import { Instagram } from './Components/Instagram'
 import { Comprafacil } from './Components/CompraFacil'
 import { Destacados } from './Components/Destacados'
 import { NavbarS } from './Components/NavBarS'
+//import { Footer } from './Components/Footer'
 
 
 function App() {
 
   return (
     <>
-      <Destacados />
+      
       <Warning />
       <NavbarS />
       <Comprafacil />
@@ -26,7 +26,6 @@ function App() {
       <LosQueSaben />
       <ImpAlimSaludable />
       <Instagram />
-      <Footer /> 
     </>
   )
 }
