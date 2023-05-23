@@ -9,7 +9,7 @@ import { Instagram } from './Components/Instagram'
 import { Comprafacil } from './Components/CompraFacil'
 import { Destacados } from './Components/Destacados'
 import { NavbarS } from './Components/NavBarS'
-//import { Footer } from './Components/Footer'
+import { Footer } from './Components/Footer'
 
 
 function App() {
@@ -26,6 +26,7 @@ function App() {
       <LosQueSaben />
       <ImpAlimSaludable />
       <Instagram />
+      <Footer />
     </>
   )
 }
