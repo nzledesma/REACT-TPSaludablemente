@@ -4,16 +4,14 @@ import MenuFooter from './MenuFooter';
 import SocialMedia from './SocialMedia';
 import './style.css';
 
-const Footer = () => {
+export const Footer = () => {
     return(
-        <footer class="footer">
+        <div class="footer">
             <div className="footer-container">
                 <Logo />
                 <MenuFooter />
                 <SocialMedia />
             </div>
-        </footer>
+        </div>
     );
 }
-
-export default Footer;
