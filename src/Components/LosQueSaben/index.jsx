@@ -1,7 +1,7 @@
-import React from 'react'
+import CardContainerZ from './CardContainerZ'
 
 export const LosQueSaben = () => {
   return (
-    <div>LosQueSaben</div>
+    <CardContainerZ />
   )
 }

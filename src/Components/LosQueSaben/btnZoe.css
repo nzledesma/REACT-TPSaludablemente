@@ -1,0 +1,14 @@
+.btnZoe {
+    color: black;
+    background-color: #FFF0AF;
+    border: 20px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    border: 1px solid black ;
+    width: 140px;
+    height: 40px;
+    text-decoration: underline;
+  }

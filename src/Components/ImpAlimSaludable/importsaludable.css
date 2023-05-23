@@ -1,0 +1,80 @@
+.card-container{
+    background-image: url(../../imagenes/importante.jpg);
+    max-width: 100%;
+    max-height: 100%;
+    background-position: center;
+    background-size: cover;
+    color: #7F5004;
+}
+
+
+/* BOTONES */
+
+.btnzoe2 {
+    color: black;
+    background-color: rgb(248, 182, 75);
+    border: 20px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 40px;
+    margin-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    border: 1px solid black ;
+    width: 270px;
+    height: 40px;
+    text-decoration: underline;
+  }
+  
+  .btnzoe3 {
+    color: black;
+    background-color: rgb(248, 182, 75);
+    border: 20px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    border: 1px solid black ;
+    width: 270px;
+    height: 40px;
+    text-decoration: underline;
+  }
+  
+
+  .btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2%;
+
+  }
+
+  .text-imp {
+    text-align: right;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: black;
+    margin-top: 100px;
+    margin: 30px;
+    
+
+  }
+
+  .title-impor {
+    
+    text-shadow: 4px 4px 2px #F8B64B;
+   -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #7F5004;
+    text-align: right;
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  

@@ -1,7 +1,7 @@
-import React from 'react'
+import Cardimportante from "./impContainer"
 
 export const ImpAlimSaludable = () => {
   return (
-    <div>ImpAlimSaludable</div>
+    <Cardimportante />
   )
 }
