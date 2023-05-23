@@ -67,14 +67,16 @@ const destacadosStyle = {
 }
   
 const texto = {
-  color: "black",
-  fontFamily:"arial, sans serif",
-  fontSize: "40px",
-  textShadow: "5px 3px 5px #FFF0AF",
-  display:"flex",
+  textShadow: "4px 4px 2px #F8B64B",
+  webkitTextStroke: "2px black",
+  webkitTextFillColor: "#7F5004",
+  // textAlign: "right",
+  fontSize: "35px",
+  fontFamily: "Arial, sans-serif",
+  display: "flex",
   flexWrap: "wrap",
-  justifyContent: "center",
-  margin: "40px"
+  flexDirection: "column",
+  padding: "40px"
 }
 
 const tarjetasStyle = {
