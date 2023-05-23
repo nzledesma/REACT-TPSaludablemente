@@ -11,6 +11,9 @@ import { FaShoppingCart, FaUserAlt, FaSearch } from "react-icons/fa";
 
 export const NavbarS = () => {
     return  (
+      
+      
+      
       <Navbar bg="light" expand="lg" >
         <Container style={{ backgroundColor: "#FFF0AF", margin: 0, maxWidth: "100%" }}>
           <div style={{ display: "flex", alignItems: "center"}}>

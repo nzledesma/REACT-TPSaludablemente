@@ -15,7 +15,7 @@ const warStyle = {
   fontFamily: "arial",
   textAlign: "center",
   padding: "20px",
-  
+    
 }
 
 
