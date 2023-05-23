@@ -1,9 +1,9 @@
 const OfertaSemBtn = () => {
 return (
-<button
-    style={OfertaSemBtnStyles}
->COMPRAR</button>
-)
+    <button style={OfertaSemBtnStyles}>
+        COMPRAR
+    </button>
+    )
 }
 export default OfertaSemBtn
 
@@ -19,6 +19,7 @@ border: "1px solid black",
 width: "137px",
 height: "38px",
 textDecoration: "underline",
-marginTop: "7px",
+marginTop: "0px",
+marginBottom: "15px",
 }
 
