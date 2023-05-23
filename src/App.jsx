@@ -6,7 +6,7 @@ import { LosQueSaben } from './Components/LosQueSaben'
 import { ImpAlimSaludable } from './Components/ImpAlimSaludable'
 import { Warning } from './Components/Warning'
 import { Instagram } from './Components/Instagram'
-import { Comprafacil } from './Components/CompraFacil'
+import { CompraFacil } from './Components/CompraFacil'
 import { Destacados } from './Components/Destacados'
 import { NavbarS } from './Components/NavBarS'
 import { Footer } from './Components/Footer'
@@ -19,7 +19,7 @@ function App() {
       
       <Warning />
       <NavbarS />
-      <Comprafacil />
+      <CompraFacil />
       <Destacados />
       <OfertaSem />
       <PorQueElegirnos />
