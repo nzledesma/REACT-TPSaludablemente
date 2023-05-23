@@ -10,7 +10,7 @@ const OfertaSemCard = (props) => {
         <figcaption style={figcaptionStyle}>
             <p style={{fontSize: "30px"}}>{props.card.producto}</p>
             <p style={{fontSize: "24px", lineHeight: "0px" }}>{props.card.tamaño}</p>
-            <h2>{props.card.precio}</h2>
+            <p style={{fontSize: "30px"}}>{props.card.precio}</p>
             <OfertaSemBtn />
         </figcaption>
         
@@ -46,7 +46,7 @@ const figcaptionStyle = {
     height: "190px",
     backgroundColor: "#D9D9D9",
     borderRadius: "0px 0px 20px 20px",
-    paddingBottom: "20px",
+    paddingBottom: "0px",
     borderTop: "1px solid black",
     marginRight: "0px",
 }
