@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula&display=swap');
+@font-face {
+    font-family: Kiona;
+    src: url('./fonts/Kiona-Regular.ttf');
+}
+
+
 h2 {
-    color: #FFF0AF;
-    text-shadow: 4px 4px 2px #7F5004;
-   -webkit-text-stroke: 2px black;
-    -webkit-text-fill-color: #FFF0AF;
+    color: #F8B64B;
+    text-shadow: 2px 4px 2px #7F5004;
+   -webkit-text-stroke: 1.1px black;
     text-align: right;
     font-size: 40px;
-    font-family: Arial, sans-serif;
+    font-family: 'Kiona';
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
