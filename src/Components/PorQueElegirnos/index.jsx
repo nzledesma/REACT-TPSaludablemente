@@ -79,8 +79,8 @@ const tarjetassStyle = {
 };
 
 const mediaQuery = `@media (max-width: 768px) {
-  ${tarjetassStyle} {
-    justifyContent: "flex-start";
-    marginTop: "0px";
+  .tarjetas {
+    justify-content: flex-start;
+    margin-top: 0;
   }
 }`;
