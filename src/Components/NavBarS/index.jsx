@@ -24,7 +24,7 @@ export const NavbarS = () => {
             <div className="d-lg-none">
                 <a href="#" ><FaSearch style={iconStyles} /></a>
                 <a href="#" ><FaUserAlt style={iconStyles} /></a>
-                <a href="#" ><FaShoppingCart style={iconStyles} /></a>
+                {/* <a href="#" ><FaShoppingCart style={iconStyles} /></a> */}
             </div>
           </div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -55,7 +55,7 @@ export const NavbarS = () => {
               <div className="d-none d-lg-flex">
                 <a href="#" ><FaSearch style={iconStyles} /></a>
                 <a href="#" ><FaUserAlt style={iconStyles} /></a>
-                <a href="#" ><FaShoppingCart style={iconStyles} /></a>             
+                {/* <a href="#" ><FaShoppingCart style={iconStyles} /></a>              */}
               </div>
             </Nav>
           </Navbar.Collapse>

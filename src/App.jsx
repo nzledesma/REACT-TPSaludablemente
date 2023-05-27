@@ -10,17 +10,18 @@ import { CompraFacil } from './Components/CompraFacil'
 import { Destacados } from './Components/Destacados'
 import { NavbarS } from './Components/NavBarS'
 import { Footer } from './Components/Footer'
+import AshopCart from './Components/AshopCart'
 
 
 function App() {
 
   return (
     <>
-      
+            
       <Warning />
       <NavbarS />
       <CompraFacil />
-      <Destacados />
+      <AshopCart />
       <OfertaSem />
       <PorQueElegirnos />
       <LosQueSaben />

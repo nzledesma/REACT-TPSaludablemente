@@ -35,18 +35,15 @@ const cfStyle = {
   opacity: "0.8",
   backgroundPosition: "center",
   justifyContent: "center",
-  // alignItems: "center",
   paddingLeft: "10px",
 }
-  
-
 
 const cfTtexto = {
   textShadow: "4px 4px 2px #F8B64B",
-  webkitTextStroke: "2px black",
-  webkitTextFillColor: "#7F5004",
+  // webkitTextStroke: "2px black",
+  // webkitTextFillColor: "#7F5004",
   fontSize: "40px",
-  fontWeight: 300,
+  // fontWeight: 300,
   fontFamily: "calibri, sans-serif",
   display: "flex",
   flexWrap: "wrap",
@@ -59,7 +56,6 @@ const lisStyle = {
   fontFamily: "verdana",
   fontSize: "18px",
 }
-
 
 const cfBtnStyles = {
   color: "black",
