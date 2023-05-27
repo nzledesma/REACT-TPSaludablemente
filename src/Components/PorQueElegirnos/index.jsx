@@ -51,6 +51,7 @@ export const PorQueElegirnos = () => {
           />
         ))}
       </div>
+      <style>{mediaQuery}</style>
     </div>
   );
 };
@@ -62,8 +63,7 @@ const porqueelegirnosStyle = {
   maxHeight: "100%",
   height: "55vw",
   backgroundImage: `url(${whychoose})`,
-  backgroundSize: 'calc(100% - 0px) calc(100% - 400px)',
-  backgroundRepeat: "no-repeat",
+  backgroundSize: "cover",
   justifyContent: "center",
   alignItems: "center",
 };
@@ -74,7 +74,13 @@ const tarjetassStyle = {
   gap: "20px",
   justifyContent: "center",
   alignItems: "flex-start",
-  maxWidth: "1200px",
   width: "100vw",
-  marginTop: "-160px",
+  marginTop: "250px",
 };
+
+const mediaQuery = `@media (max-width: 768px) {
+  .tarjetas {
+    justify-content: flex-start;
+    margin-top: 0;
+  }
+}`;
