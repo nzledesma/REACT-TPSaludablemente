@@ -55,3 +55,4 @@ const figcaptionStyle = {
 };
 
 export default PorQueElegirnosCard;
+

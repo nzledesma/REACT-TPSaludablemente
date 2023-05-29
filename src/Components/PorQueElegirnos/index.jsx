@@ -61,11 +61,13 @@ const porqueelegirnosStyle = {
   flexWrap: "wrap",
   maxWidth: "100%",
   maxHeight: "100%",
-  height: "55vw",
+  // height: "55vw",
   backgroundImage: `url(${whychoose})`,
   backgroundSize: "cover",
   justifyContent: "center",
   alignItems: "center",
+  backgroundPosition: "center",
+  marginTop: "20px"
 };
 
 const tarjetassStyle = {
