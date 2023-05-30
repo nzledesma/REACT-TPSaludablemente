@@ -1,7 +1,8 @@
 
 import { TYPES } from "../../actions/aShopCartActions";
-import { useReducer } from "react";
+import { useReducer, useEffect } from "react";
 import { aShopCartReducer, shopInitialState } from "../../reducer/aShopCartReducer";
+import axios from "axios";
 import Aproduct from "../Aproduct"
 import Acart from "../Acart"
 import fondoDestacados from "../../imagenes/fondoDestacados.jpg"
@@ -11,6 +12,30 @@ const AshopCart = () => {
     const [state, dispatch] = useReducer(aShopCartReducer, shopInitialState)
 
     const {products, cart}= state;
+    
+    const updateState = async () =>{
+        const ENDPOINTS = {
+            products: "http://localhost:5000/products",
+            cart: "http://localhost:5000/cart"
+        }
+        const resProducts = await axios.get(ENDPOINTS.products),
+            resCart = await axios.get(ENDPOINTS.cart);
+        const productsList = resProducts.data, 
+            cartItems = resCart.data;
+
+        const data = {
+            products: productsList,
+            cart: cartItems 
+        }
+
+        dispatch({type: TYPES.READ_STATE, payload: data})
+
+    }
+
+    useEffect(() => {
+        updateState()
+    }, [])
+    
     
     const addToCart = (id) =>dispatch({type: TYPES.ADD_TO_CART, payload: id})
 
