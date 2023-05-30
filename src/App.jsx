@@ -1,17 +1,15 @@
-import { useState } from 'react'
 import './App.css'
-
 import { PorQueElegirnos } from './Components/PorQueElegirnos'
-import { LosQueSaben } from './Components/LosQueSaben'
+import { LosQueSaben } from './Components/LosQueSaben';
 import { ImpAlimSaludable } from './Components/ImpAlimSaludable'
 import { Warning } from './Components/Warning'
-import { Instagram } from './Components/Instagram'
 import { CompraFacil } from './Components/CompraFacil'
-
+import CarouselImages from './Components/CarouselIamges';
 import { NavbarS } from './Components/NavBarS'
 import { Footer } from './Components/Footer'
 import AshopCart from './Components/AshopCart'
 import { NoveSal } from './Components/NoveSal'
+import { BootCar } from './Components/BootCar/BootCar';
 
 
 function App() {
@@ -26,7 +24,8 @@ function App() {
       <PorQueElegirnos />
       <LosQueSaben />
       <ImpAlimSaludable />
-      <Instagram />
+      <CarouselImages />
+      <BootCar />
       <Footer />
     </>
   )
