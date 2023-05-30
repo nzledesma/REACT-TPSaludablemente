@@ -5,7 +5,7 @@ import ImgCar2 from "./foto_instagram_2.jpg"
 import ImgCar3 from "./foto_instagram_3.jpg"
 import ImgCar4 from "./foto_instagram_4.jpg"
 
-export const Instagram = () => {
+export const CarouselImages = () => {
   return (
     <Carousel style={InstagramStyle}>
       <Carousel.Item>
@@ -56,12 +56,12 @@ export const Instagram = () => {
   )
 }
 
+export default CarouselImages
+
 const InstagramStyle = {  
   
   maxWidth: "100%",    
-  maxHeight: "438px",
+  maxHeight: "400px",
   display: "block",
-  marginLeft: "auto",
-  marginRight: "auto",
   objectFit: "cover",
 }
