@@ -11,6 +11,8 @@ import { NavbarS } from './Components/NavBarS'
 import { Footer } from './Components/Footer'
 import AshopCart from './Components/AshopCart'
 import { NoveSal } from './Components/NoveSal'
+import { BootCar } from './Components/BootCar/BootCar'
+
 
 
 function App() {
@@ -25,7 +27,7 @@ function App() {
       <PorQueElegirnos />
       <LosQueSaben />
       <ImpAlimSaludable />
-      
+      <BootCar />
       <Footer />
     </>
   )
