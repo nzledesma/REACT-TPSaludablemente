@@ -84,7 +84,7 @@ export default BootCar
 
 const InstagramStyle = {
     maxWidth: "100%",    
-    maxHeight: "600px",
+    // maxHeight: "600px",
     alignItems: "center",
     objectFit: "cover",
     margin: "auto",
