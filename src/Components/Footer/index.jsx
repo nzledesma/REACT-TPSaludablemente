@@ -6,7 +6,7 @@ import './style.css';
 
 export const Footer = () => {
     return(
-        <div class="footer">
+        <div className="footer">
             <div className="footer-container">
                 <Logo />
                 <MenuFooter />
