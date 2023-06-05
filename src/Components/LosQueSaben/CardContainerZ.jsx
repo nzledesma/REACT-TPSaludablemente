@@ -47,6 +47,7 @@ const LosQSabenStyle = {
   backgroundPosition: "center",
   justifyContent: "center",
   alignItems: "center",
+  marginTop: "20PX"
   }
 
   
