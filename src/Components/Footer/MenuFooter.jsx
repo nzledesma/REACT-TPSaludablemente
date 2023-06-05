@@ -27,19 +27,19 @@ const MenuFooter = () => {
                 <h6 class="footer-title">Comprar</h6>
                 <ul class="footer-list">
                     <li class="footer-list-item">
-                        <a href="" class="footer-list-link">Cómo comprar</a>
+                        <a href="" class="footer-list-link">Como comprar</a>
                     </li>
                     <li class="footer-list-item">
-                        <a href="" class="footer-list-link">Cómo pagar</a>
+                        <a href="" class="footer-list-link">Como pagar</a>
                     </li>
                     <li class="footer-list-item">
                         <a href="" class="footer-list-link">Promociones</a>
                     </li>
                     <li class="footer-list-item">
-                        <a href="" class="footer-list-link">Envíos</a>
+                        <a href="" class="footer-list-link">Envios</a>
                     </li>
                     <li class="footer-list-item">
-                        <a href="" class="footer-list-link">Devolución</a>
+                        <a href="" class="footer-list-link">Devolucion</a>
                     </li>
                     <li class="footer-list-item">
                         <a href="" class="footer-list-link">Ayuda</a>
@@ -50,7 +50,7 @@ const MenuFooter = () => {
                 <h6 class="footer-title">Productos</h6>
                 <ul class="footer-list">
                     <li class="footer-list-item">
-                        <a href="" class="footer-list-link">Almacén</a>
+                        <a href="" class="footer-list-link">Almacen</a>
                     </li>
                     <li class="footer-list-item">
                         <a href="" class="footer-list-link">Frutos secos</a>
@@ -73,7 +73,7 @@ const MenuFooter = () => {
                         <a href="" class="footer-list-link">Sin TACC</a>
                     </li>
                     <li class="footer-list-item">
-                        <a href="" class="footer-list-link">Sin azúcar</a>
+                        <a href="" class="footer-list-link">Sin azucar</a>
                     </li>
                     <li class="footer-list-item">
                         <a href="" class="footer-list-link">Sin sodio</a>

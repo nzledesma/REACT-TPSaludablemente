@@ -9,7 +9,10 @@
     padding-block: 10px;
     background-color: #fff0af;
     color: #000;
-    min-width: 100vh;
+    margin-top: 20px;
+    min-width: 576px;
+    height: auto;
+    position: relative;
 }
 
 .footer-logo {
@@ -24,6 +27,8 @@
     max-width: 116rem;
     margin: auto;
     padding: 0 15px;
+    margin-inline: auto;   
+    min-width: 576px; 
 }
 
 .footer-top{
