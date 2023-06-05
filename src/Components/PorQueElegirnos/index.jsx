@@ -1,11 +1,11 @@
 
 import React from "react";
 import whychoose from "../../imagenes/whychoose.jpg";
-import icono1 from "../../imagenes/whychoose/icono1.jpg";
-import icono2 from "../../imagenes/whychoose/icono2.jpg";
-import icono3 from "../../imagenes/whychoose/icono3.jpg";
-import icono4 from "../../imagenes/whychoose/icono4.jpg";
-import icono5 from "../../imagenes/whychoose/icono5.jpg";
+import icono1 from "../../imagenes/whychoose/icono1.png";
+import icono2 from "../../imagenes/whychoose/icono2.png";
+import icono3 from "../../imagenes/whychoose/icono3.png";
+import icono4 from "../../imagenes/whychoose/icono4.png";
+import icono5 from "../../imagenes/whychoose/icono5.png";
 
 
 import PorQueElegirnosCard from "../PorQueElegirnosCard";
